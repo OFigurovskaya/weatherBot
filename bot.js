@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf');
 const axios = require('axios');
 
-const bot = new Telegraf('5694433347:AAGZ8rkAc4nE89c_tteeWFoAhyjW47mTn-A');
+const bot = new Telegraf('A');
 bot.start((ctx) => ctx.reply('Привет! Отправь мне свое местоположение, а расскажу тебе о погоде'));
 bot.on('sticker', (ctx) => ctx.reply('👍'));
 bot.on('message',async (ctx) => {
